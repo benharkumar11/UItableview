@@ -16,6 +16,8 @@
 		7E0A5E3F2C81098600F0AE13 /* UItableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0A5E3E2C81098600F0AE13 /* UItableviewTests.swift */; };
 		7E0A5E492C81098600F0AE13 /* UItableviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0A5E482C81098600F0AE13 /* UItableviewUITests.swift */; };
 		7E0A5E4B2C81098600F0AE13 /* UItableviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0A5E4A2C81098600F0AE13 /* UItableviewUITestsLaunchTests.swift */; };
+		7EE177642C876DDF00CC3EF5 /* DemoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE177632C876DDF00CC3EF5 /* DemoTVC.swift */; };
+		7EE177662C87812300CC3EF5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE177652C87812300CC3EF5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7E0A5E442C81098600F0AE13 /* UItableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UItableviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E0A5E482C81098600F0AE13 /* UItableviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UItableviewUITests.swift; sourceTree = "<group>"; };
 		7E0A5E4A2C81098600F0AE13 /* UItableviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UItableviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7EE177632C876DDF00CC3EF5 /* DemoTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTVC.swift; sourceTree = "<group>"; };
+		7EE177652C87812300CC3EF5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				7E0A5E302C81098600F0AE13 /* Assets.xcassets */,
 				7E0A5E322C81098600F0AE13 /* LaunchScreen.storyboard */,
 				7E0A5E352C81098600F0AE13 /* Info.plist */,
+				7EE177632C876DDF00CC3EF5 /* DemoTVC.swift */,
+				7EE177652C87812300CC3EF5 /* DetailViewController.swift */,
 			);
 			path = UItableview;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			files = (
 				7E0A5E2C2C81098500F0AE13 /* ViewController.swift in Sources */,
 				7E0A5E282C81098500F0AE13 /* AppDelegate.swift in Sources */,
+				7EE177662C87812300CC3EF5 /* DetailViewController.swift in Sources */,
+				7EE177642C876DDF00CC3EF5 /* DemoTVC.swift in Sources */,
 				7E0A5E2A2C81098500F0AE13 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
